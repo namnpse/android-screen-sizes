@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ScreenSize"
         tools:targetApi="31">
         <activity
+            android:name=".SupportScreenSizeByDensityActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
     </application>
